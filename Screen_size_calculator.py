@@ -35,9 +35,6 @@ def ratio_calc(inch):
         plt.xticks([])
         plt.yticks([])
         plt.show()
-        
-        print()
-        os.system("pause")
     except:
         print('Invalid input!\n')
         os.system("pause")
